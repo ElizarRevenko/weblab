@@ -1,0 +1,6 @@
+C:\Users\PM82R\source\repos\BotCore\BotCore\obj\Debug\BotCore.njsprojAssemblyReference.cache
+C:\Users\PM82R\source\repos\BotCore\BotCore\obj\Debug\BotCore.njsproj.CoreCompileInputs.cache
+C:\Users\PM82R\source\repos\BotCore\BotCore\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\PM82M\Downloads\BotCore\BotCore\obj\Debug\BotCore.njsprojAssemblyReference.cache
+C:\Users\PM82M\Downloads\BotCore\BotCore\obj\Debug\BotCore.njsproj.CoreCompileInputs.cache
+C:\Users\PM82M\Downloads\BotCore\BotCore\bin\Microsoft.NodejsTools.WebRole.dll
