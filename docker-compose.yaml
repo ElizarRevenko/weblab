@@ -1,0 +1,29 @@
+version: '3'
+services:     
+  app:
+    image: web1app
+    build: ./app
+    ports:
+      - '3000:3000'
+    volumes: 
+      - ./app:/app
+      - /app/node_modules
+    depends_on:
+      - db
+  db:
+    image: web1app/database
+    build: ./db
+    environment:
+      MYSQL_USER: 'mysql'
+      MYSQL_DATABASE: 'site'
+      MYSQL_PASSWORD: 'E1l3i0z5a2r000'
+      MYSQL_ROOT_PASSWORD: 'E1l3i0z5a2r000'
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'E1l3i0z5a2r000'
+      MYSQL_RANDOM_ROOT_PASSWORD: 'E1l3i0z5a2r000'
+    restart: always
+    ports: 
+      - '3307:3307'
+
+volumes:
+    db-config:
+    db-data:
